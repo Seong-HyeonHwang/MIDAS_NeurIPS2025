@@ -11,7 +11,7 @@ MIDAS addresses the critical challenge of modality imbalance in multimodal learn
 
 > **Note**: Please prepare your dataset and specify the path using the `--dataset_root` argument. The framework automatically handles data splitting (70/10/20) and initiates training.
 
-### Single Command Training
+### Command Line Usage
 
 You can train the model on various multimodal datasets using the following commands:
 
@@ -28,14 +28,6 @@ python train.py --dataset ucf101 --dataset_root /path/to/ucf101 --devices 0
 # Train on Kinetics (Audio-Video Action Recognition)
 python train.py --dataset kinetics --dataset_root /path/to/kinetics --devices 0
 ```
-
-### Quick Test (Single Seed)
-
-```bash
-# Fast training test with seed 42
-python train.py --dataset cremad --dataset_root /path/to/cremad --devices 0 --seed 42 --max_epochs 10
-```
-
 ---
 
 ## Note
