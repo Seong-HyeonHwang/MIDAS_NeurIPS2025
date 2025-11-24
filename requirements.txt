@@ -1,23 +1,29 @@
 # MIDAS Unified Framework Requirements
+# Updated based on conda environment
+# Python version: 3.12.4
 
 # Core Deep Learning
-torch>=1.12.0
-torchvision>=0.13.0
-torchaudio>=0.12.0
-pytorch-lightning>=1.9.0
+torch==2.5.0
+torchvision==0.20.0
+torchaudio==2.5.0
+pytorch-lightning==2.3.0
 
 # Data Processing
-pandas>=1.3.0
-numpy>=1.21.0
-scikit-learn>=1.0.0
-Pillow>=9.0.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+Pillow==10.4.0
 
 # NLP (for Food101 text processing)
-transformers>=4.20.0
+transformers==4.46.3
 
 # Utilities
-tqdm>=4.62.0
-matplotlib>=3.4.0
+tqdm==4.66.4
+matplotlib==3.8.4
 
 # Optional but recommended
 tensorboard>=2.9.0
+
+# Additional dependencies
+torchmetrics==1.4.0.post0
+h5py>=3.11.0
