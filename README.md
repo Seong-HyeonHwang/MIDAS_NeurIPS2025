@@ -51,4 +51,4 @@ python train.py --dataset kinetics --dataset_root /path/to/kinetics --devices 0
 | `--lr` | float | varies* | Learning rate |
 | `--output_dir` | str | auto | Output directory for checkpoints |
 
-\*Default values vary by dataset
+\*Default values vary by dataset.
